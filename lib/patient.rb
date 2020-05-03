@@ -25,6 +25,6 @@ class Patient
   end
 
   def patients
-    appointment.collect {|appointment| appointment.patients}
+    appointment.collect {|appointment| appointment.patient}
   end
 end
